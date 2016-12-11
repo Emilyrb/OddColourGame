@@ -1,0 +1,83 @@
+html,body{
+	margin: 0 auto;
+	padding:0;
+	width:100%;
+	font-family:arial;
+	text-align:center;
+}
+body{
+	background-color:#cccccc;
+}
+#bgColour{
+	display:inline-block;
+	background-color:grey;
+	border:2px solid black;
+	padding:0px 5px 0px 5px;
+	position:absolute;
+	top:0;
+	left:0;
+	color:white;
+}
+#colourPicker{
+	margin-top:-10px;
+	width:50%;
+}
+#clickStart{
+	background-color:deepskyblue;
+	display:inline-block;
+	padding:10px;
+	border-radius:10px;
+	font-size:30px;
+}
+#topBar{
+	width:500px;
+	margin:-40px auto;
+	display:block;
+}
+#timer{
+	float:left;
+}
+#pointCounter{
+	float:right;
+}
+#game{
+    margin: 90px auto;
+	width:500px;
+	height:500px;
+}
+.box3{
+	display:inline-block;
+	margin:6px;
+	width:30%;
+	height:30%;
+	background-color:purple;
+	border-radius:10px;
+}
+.box4{
+	display:inline-block;
+	margin:6px;
+	width:20%;
+	height:20%;
+	background-color:purple;
+	border-radius:10px;
+}
+.box5{
+	display:inline-block;
+	margin:6px;
+	width:15%;
+	height:15%;
+	background-color:purple;
+	border-radius:10px;
+}
+footer{
+	margin-top:-80px;
+}
+#fastText{
+	position:absolute;
+	width:500px;
+	left:40%;
+	display:block;
+}
+#fastText p{
+	float:right;
+}
